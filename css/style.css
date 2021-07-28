@@ -419,6 +419,9 @@ header .container nav ul li:hover a{
     border-right: 1px solid #cdcdcd;
     text-align: center;
 }
+.product-logo .container .row .col-3:last-child div {
+    border-right: none;
+}
 /* Product Logo Section End */
 
 
