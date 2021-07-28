@@ -1,0 +1,566 @@
+/* Common Section Start */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+*, *::after, *::before{
+    box-sizing: border-box;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    overflow: hidden;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+h2 {
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+figure, p{
+    margin: 0;
+}
+.common-para {
+    width: 700px;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 500;
+    color: 262627;
+    text-align: center;
+    line-height: 30px;
+}
+a{
+    text-decoration: none;   
+}
+li {
+    list-style: none;
+}
+.text-center{
+    text-align: center;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.row{
+    overflow: hidden;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.col-1 {
+    float: left;
+    width: 8.3333%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-2 {
+    float: left;
+    width: 16.6666%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-3{
+    float: left;
+    width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;  
+}
+.col-4{
+    float: left;
+    width: 33.3333%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-5 {
+    float: left;
+    width: 41.6665%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-6{
+    float: left;
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-7{
+    float: left;
+    width: 58.3331%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-8{
+    float: left;
+    width: 66.6664%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-9{
+    float: left;
+    width: 75%;
+    padding-left: 15px;
+    padding-right: 15px; 
+}
+.col-10{
+    float: left;
+    width: 83.333%;
+    padding-left: 15px;
+    padding-right: 15px; 
+}
+.col-11{
+    float: left;
+    width: 91.6663%;
+    padding-left: 15px;
+    padding-right: 15px; 
+}
+/* Common Section End */
+
+
+/* Header Section Start */
+header{
+    background-color: #dcdcdc;
+}
+header .container figure {
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+header .container nav {
+    float: right;
+}
+header .container nav ul li {
+    display: inline-block;
+    margin-left: 35px;
+    margin-top: 80px;
+    font-size: 14px;
+}
+header .container nav ul li a {
+    color: #000;
+}
+header .container nav ul li:first-child {
+    margin-left: 0;
+}
+header .container nav ul li:first-child a,
+header .container nav ul li:hover a{
+    color: #fb773d;
+    transition: 0.3s;
+}
+/* Header Section End */
+
+
+/* Hero Section Start */
+.hero {
+    background-image: url('../img/hero-banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+/* Hero Section End */
+
+
+/* Menu Bar Section Start */
+.menubar {
+    background-color: #e84c3d;
+}
+.menubar .container nav ul li {
+    display: inline-block;
+    padding: 30px 15px;
+    border-right: 1px solid #dd695d;
+    cursor: pointer;
+    margin-left: -5px;
+    width: 100px;
+    text-align: center;
+    transition: 0.3s;
+}
+.menubar .container nav ul {
+    margin-left: 5px;
+}
+.menubar .container nav ul li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.menubar .container nav ul li:last-child{
+    border-right: none;
+}
+.menubar .container nav ul .active,
+.menubar .container nav ul li:hover{
+    background-color: #405163;
+}
+.menubar {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    border-bottom: 1px solid #dd695d;
+}
+/* Menu Bar Section End */
+
+
+/* Our Site Section Start */
+.our-site {
+    padding: 75px 0;
+    background-color: #dcdcdc;
+}
+.our-site .container .our-site-heading-text p {
+    color: #e84c3d;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.our-site .container .row .col-4 div {
+    width: 330px;
+}
+.our-site .container .row .col-4 div img{
+    opacity: 0.6;
+    border-radius: 3px;
+}
+.our-site .container .row .col-4 div:hover img{
+    opacity: 1;
+    transition: 0.3s;
+}
+.our-site .container .row .col-4 div h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.our-site .container .row .col-4 div p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+.our-site .container .row .col-4 div .btn {
+    width: 85px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    background-color: #e84c3d;
+    color: #fff;
+    cursor: pointer;
+}
+.our-site .container .row .col-4 div .btn:hover {
+    background-color: #c74135;
+    transition: 0.3s;
+}
+/* Our Site Section End */
+
+
+/* Business Services Section Start */
+.service {
+    padding: 75px 0;
+    background-color: #e84c3d;
+}
+.service .container .service-heading-text h2 {
+    color: #fefefe;
+    margin-bottom: 45px;
+    letter-spacing: 2px;
+}
+.service .container .row:first-child {
+    margin-bottom: 50px;
+}
+.service .container .row .col-4 .row .col-2 div {
+    width: 75px;
+    height: 75px;
+    background-color: #f8d6d2;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.service .container .row .col-4 .row .col-2 div i {
+    font-size: 30px;
+    color: #f53b2a;
+}
+.service .container .row .col-4 .row .col-10 .service-information {
+    margin-left: 50px;
+}
+.service .container .row .col-4 .row .col-10 .service-information h5 {
+    font-size: 15px;
+    color: #333333;
+    margin-top: 15px;
+}
+.service .container .row .col-4 .row .col-10 .service-information p {
+    font-size: 12px;
+    color: #f4f4f4;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.service .container .row .col-4 .row .col-10 .service-information div {
+    cursor: pointer;
+}
+.service .container .row .col-4 .row .col-10 .service-information div p{
+    display: inline-block;
+}
+.service .container .row .col-4 .row .col-10 .service-information div p:first-child {
+    width: 16px;
+    height: 16px;
+    background-color: #f8d6d2;
+    border-radius: 50%;
+    text-align: center;
+}
+.service .container .row .col-4 .row .col-10 .service-information div p i {
+    margin-top: 3px;
+    margin-left: 1px;
+    color: #f53b2a;
+}
+.service .container .row .col-4 .row .col-10 .service-information div p:last-child {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+/* Business Services Section End */
+
+
+
+/* Item Service Section Start */
+.item-service {
+    padding: 75px 0;
+    background-color: #dcdcdc;
+}
+.item-service .container .row .col-5 h3,
+.item-service .container .row .col-3 h3,
+.item-service .container .row .col-4 h3  {
+    font-size: 25px;
+    color: #353535;
+    margin-bottom: 35px;
+}
+.item-service .container .row .col-5 .item-information {
+    width: 370px;
+}
+.item-service .container .row .col-5 .item-information p {
+    font-size: 12px;
+    line-height: 25px;
+    color: #878686;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+.item-service .container .row .col-5 .item-information button {
+    width: 120px;
+    height: 40px;
+    display: inline-block;
+    background-color: #e84c3d;
+    color: #f4f4f4;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.item-service .container .row .col-3 .item-information p {
+    font-size: 12px;
+    color: #8c8a8b;
+    width: 230px;
+    line-height: 40px;
+    border-bottom: 1px solid #d1d1d1;
+}
+.item-service .container .row .col-3 .item-information p:last-child {
+    border-bottom: none;
+}
+.item-service .container .row .col-3 .item-information p i {
+    color: #e84c3d;
+    margin-right: 10px;
+}
+.item-service .container .row .col-4 .item-information .row {
+    margin-bottom: 60px;
+}
+.item-service .container .row .col-4 .item-information .row .col-8 div {
+    width: 160px;
+}
+.item-service .container .row .col-4 .item-information .row .col-8 div p:first-child {
+    color: #e84c3d;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.item-service .container .row .col-4 .item-information .row .col-8 div p:nth-child(2) {
+    color: #33322e;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+.item-service .container .row .col-4 .item-information .row .col-8 div p:last-child {
+    color: #8c8a8b;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+}
+/* Item Service Section End */
+
+
+/* Product Logo Section Start */
+.product-logo {
+    padding: 10px 0;
+    background-color: #e7e7e7;
+}
+.product-logo .container .row .col-3 div {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-right: 1px solid #cdcdcd;
+    text-align: center;
+}
+/* Product Logo Section End */
+
+
+/* Footer Section Start */
+footer {
+    padding: 70px 0;
+    background-color: #405163;
+}
+footer .container .row .col-6 .main-text h3,
+footer .container .row .col-3 .main-text h3 {
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+footer .container .row .col-6 .main-text h3 {
+    margin-left: 50px;
+}
+footer .container .row .col-6 .main-text,
+footer .container .row .col-3 .main-text {
+    border-right: 1px solid #cdcdcd;
+    padding: 10px 0;
+}
+footer .container .row .col-3:last-child .main-text {
+    border-right: none;
+}
+footer .container .row .col-6 .footer-form div {
+    width: 400px;
+    margin-left: 50px;
+}
+footer .container .row .col-6 .main-text .footer-form div p {
+    font-size: 12px;
+    color: #f5f5f5;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+footer .container .row .col-6 .main-text .footer-form div input {
+    width: 400px;
+    height: 35px;
+    border-radius: 2px;
+    display: block;
+    padding-left: 10px;
+    border: 1px solid gray;
+    background-color: #d1d1d1;
+}
+footer .container .row .col-6 .main-text .footer-form div input:focus {
+    border: none;
+    outline: none;
+}
+footer .container .row .col-6 .main-text .footer-form div button {
+    width: 140px;
+    height: 40px;
+    background-color: #2b3b4b;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    margin-left: 260px;
+    cursor: pointer;
+}
+footer .container .row .col-6 .main-text .footer-form div button:hover {
+    background-color: #4a6580;
+    color: #dcdcdc;
+    transition: 0.3s;
+}
+footer .container .row .col-3 .main-text .first-footer-text div:first-child address {
+    font-size: 11px;
+    color: #fefefe;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+footer .container .row .col-3 .main-text .first-footer-text div:last-child {
+    margin-top: 30px;
+    margin-bottom: 19px;
+    color: #fefefe;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 30px;
+}
+footer .container .row .col-3 .main-text .second-footer-text div:first-child {
+    margin-bottom: 20px;
+}
+footer .container .row .col-3 .main-text .second-footer-text div:first-child h3 {
+    color: #e84c3d;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 3px;
+}
+footer .container .row .col-3 .main-text .second-footer-text div:first-child p {
+    font-size: 12px;
+    color: #fefefe;
+
+}
+footer .container .row .col-3 .main-text .second-footer-text div:nth-child(2) p{
+    display: inline-block;
+    margin-right: 20px;
+    border: 2px solid #fff;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s;
+}
+footer .container .row .col-3 .main-text .second-footer-text div:nth-child(2) p a {
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    transition: 0.3s;
+}
+footer .container .row .col-3 .main-text .second-footer-text div:nth-child(2) p:hover {
+    border: 2px solid #000;
+}
+footer .container .row .col-3 .main-text .second-footer-text div:nth-child(2) p:hover a {
+    color: rgb(0, 0, 0);
+    transform: rotate(360deg);
+}
+footer .container .row .col-3 .main-text .second-footer-text div:nth-child(2) p:first-child a {
+    left: 11px;
+}
+footer .container .row .col-3 .main-text .second-footer-text div:nth-child(2) p:last-child {
+    margin-right: 0;
+}
+footer .container .row .col-3 .main-text .second-footer-text div:nth-child(2) p:last-child a {
+    left: 8px;
+}
+footer .container .row .col-3 .main-text .second-footer-text div:last-child {
+    margin-top: 20px;
+}
+footer .container .row .col-3 .main-text .second-footer-text div:last-child p:first-child {
+    font-size: 16px;
+    font-weight: 500;
+    color: #dcdcdc;
+}
+footer .container .row .col-3 .main-text .second-footer-text div:last-child p:last-child{
+    font-size: 12px;
+    font-weight: 400;
+    color: #dcdcdc;
+    margin-top: 6px;
+}
+/* Footer Section End */
